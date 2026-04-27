@@ -62,22 +62,25 @@ brew install sdl2 sdl2_mixer ncurses pkg-config
 
 ## 🚀 Installation
 
-### Quick Build
+### Quick Install (Recommended)
 ```bash
-cd dez/
-make
+curl -sL https://raw.githubusercontent.com/SardorchikDev/Dez---mp/main/install.sh | sh
 ```
 
-### Install System-wide
+### Or Clone and Install
 ```bash
-sudo make install
+git clone https://github.com/SardorchikDev/Dez---mp.git
+cd Dez---mp
+./install.sh
 ```
+
+### Manual Build
 
 ### Run
 ```bash
-./build/dez                    # Start with file browser
-./build/dez ~/Music            # Scan directory
-./build/dez song.mp3           # Play specific file
+dez                      # Start with file browser
+dez ~/Music              # Scan directory
+dez song.mp3             # Play specific file
 ```
 
 ## 🎨 Screenshots
